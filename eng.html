@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ulugbek Baltayev – Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ddd;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #1abc9c;
+    }
+    .container {
+      padding: 40px 10%;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2 {
+      color: #1abc9c;
+    }
+    .skills span {
+      display: inline-block;
+      background: #1abc9c;
+      color: white;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .contact-list li {
+      list-style: none;
+      margin: 10px 0;
+    }
+    .contact-list a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+    .contact-list i {
+      margin-right: 10px;
+      color: #1abc9c;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #1abc9c;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #16a085;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ulugbek Baltayev</h1>
+    <p>Future Software Engineer | Student of VTIPO</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Experience</a>
+      <a href="#goals">Goals</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi! My name is Ulugbek Baltayev. I am a responsible and goal-oriented student of Computer Engineering and Software. Since childhood, I’ve been fascinated by technology — computers, smartphones, and everything in between.</p>
+      <p>I study at Yessenov University – Caspian University of Technology and Engineering named after Sh. Yessenov, where I major in Computer Engineering and Software.</p>
+      <p>I chose this field because it is not only useful for work, but also helps me understand the digital world around me. Outside of studying, I enjoy boxing, working part-time, hanging out with friends, and playing online games.</p>
+      <p>My dream is to become a professional programmer and work in a large tech company like Google.</p>
+      <a class="btn" href="#contact">Get in Touch</a>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>I am currently learning various programming languages and plan to take additional courses soon to expand my skills. My main interests are web development and algorithms.</p>
+      <p>I'm flexible and ready to learn whatever is needed to get the job done. I enjoy solving problems, exploring new technologies, and working both independently and in a team.</p>
+      <div class="skills">
+        <span>Go (Golang)</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript (Basics)</span>
+        <span>Linux / Terminal</span>
+        <span>Git & GitHub</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Sudoku Solver (Go)</h3>
+        <p>This project solves a 9x9 Sudoku puzzle using backtracking algorithm. Implemented in pure Go as part of the Piscine challenge.</p>
+      </div>
+      <div class="project">
+        <h3>Quad Generator</h3>
+        <p>Functions written in Go to draw different ASCII rectangles (QuadA to QuadE). Practiced pattern recognition, loops, and custom output.</p>
+      </div>
+      <div class="project">
+        <h3>Adaptive Learning Web App</h3>
+        <p>A small web application created to explore interactive and adaptive education for students.</p>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Education & Experience</h2>
+      <ul>
+        <li><strong>2023–2027:</strong> BSc in Computer Engineering & Software – Yessenov University</li>
+        <li><strong>2020–present:</strong> Senior waiter / Service Manager at various bars (night shift)</li>
+      </ul>
+    </section>
+
+    <section id="goals">
+      <h2>My Goals</h2>
+      <ul>
+        <li>Finish Go and Web development courses</li>
+        <li>Build my own game project</li>
+        <li>Get an internship in a tech company</li>
+        <li>Explore Telegram bot development</li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>Download CV</h2>
+      <p>You can download my CV here:</p>
+      <a class="btn" href="cv_ulugbek.pdf" download>📄 Download CV</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to connect with me:</p>
+      <ul class="contact-list">
+        <li><i class="fab fa-github"></i><a href="https://github.com/ula228" target="_blank">github.com/ula228</a></li>
+        <li><i class="fab fa-telegram"></i>@ulugcode</li>
+        <li><i class="fas fa-envelope"></i><a href="mailto:baltaewulug@gmail.com">baltaewulug@gmail.com</a></li>
+      </ul>
+      <p><strong>Fun fact:</strong> I learn fast, I'm curious by nature, and always ready to try something new — whether it's writing code or stepping into the boxing ring! 🥊</p>
+      <a class="btn" href="#about">Back to Top</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ulugbek Baltayev. All rights reserved.</p>
+  </footer>
+</body>
+</html>
